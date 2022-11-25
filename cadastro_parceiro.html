@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="images/icon-pet.png">
+    <title>Pet Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Parte superior -->
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 phone pl-md-2">
+                        <a href="#" class="mr-2">O melhor cuidado para seu Pet.</a>
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end">
+                    <div class="social-media">
+                        <p class="mb-0 d-flex">
+                            <!--inserir bloco de pesquisa-->
+                            <!--bloco de logins e cadastro, linkar o index referente nos href="" subistituindo o #.-->
+                            <a href="busca.html" class="d-flex align-items-center justify-content-center"><span
+                                    class="fa fa-search"><i class="sr-only"></i></span></a>
+                            <a href="cadastro.html"
+                                class="d-flex align-items-center justify-content-center"><span>Cadastre-se</i></span></a>
+                            <a href="log_in.html"
+                                class="d-flex align-items-center justify-content-center"><span>Login</i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>Pet Care</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <!--itens do menu, deletar ou subistituir itens-->
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="torne-se.html" class="nav-link">Quero ser Pet Parceiro</a></li>
+                    <li class="nav-item"><a href="contatos.html" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cadastro do parceiro -->
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Preencha o formulário abaixo para fazer parte da empresa de cuidado pet
+                    </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12" style="border-radius: 10px 0px 0px 10px;">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            <div class="col-md-7">
+                                <div class="contact-wrap w-100 p-md-5 p-4" style="border-radius: 10px 0px 0px 10px">
+                                    <h3 class="mb-4 text-center">Cadastra-se</h3>
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <div class="row">
+
+                                            <!-- Nome completo -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="name">* Nome completo</label>
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Nome" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- Nome Fantasia -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="name">* Nome fantasia</label>
+                                                    <input type="text" class="form-control" name="fantasy name"
+                                                        id="fantasy name" placeholder="Nome Fantasia" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- E-mail Comercial -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="business email">* E-mail comercial</label>
+                                                    <input type="email" class="form-control" name="business email"
+                                                        id="business email" placeholder="E-mail" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- CNPJ -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="CNPJ">* CNPJ:</label>
+                                                    <input type="caractere" class="form-control" name="cnpj" id="cnpj"
+                                                        placeholder="00.000.000/0000-00"
+                                                        pattern="\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}\" size="18"
+                                                        maxlength="18" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- Endereço -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="address">* Endereço</label>
+                                                    <input type="caractere" class="form-control" name="address"
+                                                        id="address" placeholder="Endereço" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- Estado -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <div class="form-field">
+                                                        <div class="select-wrap">
+                                                            <div class="icon"></div>
+                                                            <label class="label" for="state">* Selecione seu
+                                                                Estado</label>
+                                                            <select name="state" id="" class="form-control" required>
+                                                                <option selected disabled value="">* Selecione seu
+                                                                    Estado</option>
+                                                                <option value="">São Paulo - SP</option>
+                                                                <option value="ac">Acre - AC</option>
+                                                                <option value="al">Alagoas - AL</option>
+                                                                <option value="ap">Amapá - AP</option>
+                                                                <option value="am">Amazonas - AM</option>
+                                                                <option value="ba">Bahia - BA</option>
+                                                                <option value="ce">Ceará - CE</option>
+                                                                <option value="df">Distrito Federal - DF</option>
+                                                                <option value="es">Espírito Santo - ES</option>
+                                                                <option value="go">Goiás - GO</option>
+                                                                <option value="ma">Maranhão - MA</option>
+                                                                <option value="mt">Mato Grosso - MT</option>
+                                                                <option value="ms">Mato Grosso do Sul - MS</option>
+                                                                <option value="mg">Minas Gerais - MG</option>
+                                                                <option value="pa">Pará - PA</option>
+                                                                <option value="pb">Paraíba - PB</option>
+                                                                <option value="pr">Paraná - PR</option>
+                                                                <option value="pe">Pernambuco - PE</option>
+                                                                <option value="pi">Piauí - PI</option>
+                                                                <option value="rj">Rio de Janeiro - RJ</option>
+                                                                <option value="rn">Rio Grande do Norte - RN</option>
+                                                                <option value="rs">Rio Grande do Sul - RS</option>
+                                                                <option value="ro">Rondônia - RO</option>
+                                                                <option value="rr">Roraima - RR</option>
+                                                                <option value="sc">Santa Catarina - SC</option>
+                                                                <option value="sp">São Paulo - SP</option>
+                                                                <option value="se">Sergipe - SE</option>
+                                                                <option value="to">Tocantins - TO</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Cidade -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="label" for="city">* Cidade</label>
+                                                    <input type="text" class="form-control" name="cidade" id="cidade"
+                                                        placeholder="Cidade" required>
+                                                </div>
+                                            </div>
+
+                                            <!-- Botão -->
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="submit" value="Cadastrar"
+                                                        class="btn btn-primary w-100 mt-3" required>
+                                                    <div class="submitting"></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!-- Foto -->
+                            <div class="col-md-5 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-5 img"
+                                    style="background-image: url(images/cad_parc.jpg); border-radius: 0px 10px 10px 0px;">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Pet Care</h2>
+                    <p>Pet Care está junto a você nos cuidados diários com o seu pet.</p>
+                    <ul class="ftco-footer-social p-0">
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                title="Twitter"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                title="Facebook"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top"
+                                title="Instagram"><span class="fa fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Links Rápidos</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                        <li><a href="sobre.html" class="py-2 d-block">Sobre</a></li>
+                        <li><a href="torne-se.html" class="py-2 d-block">Quero ser Pet Parceiro</a></li>
+                        <li><a href="contatos.html" class="py-2 d-block">Contatos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Alguma Dúvida?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon fa fa-map"></span><span class="text">Jorge Huaimi, 203 , Mooca, São
+                                    Paulo-SP</span></li>
+                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+55 11
+                                        1234-5678</span></a></li>
+                            <li><a href="#"><span class="icon fa fa-paper-plane"></span><span
+                                        class="text">info@petcare.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+
+                    <p class="copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved <i
+                            class="fa fa-heart" aria-hidden="true"></i>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
